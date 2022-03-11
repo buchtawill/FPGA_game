@@ -12,7 +12,7 @@ This is the module that controls the switching of which ROM to display.
 This is the top module of the project, interfacing directly with the VGA DAC on the Basys3.
 
 ### vga_timing.v
-Contains the code that generate horizontal and vertical sync pulses. Also outputs the x and y coordinates of the current pixel.
+Contains the code that generates horizontal and vertical sync pulses. Also outputs the x and y coordinates of the current pixel.
 
 ### process.java
 Java program that will generate a verilog rom module.
